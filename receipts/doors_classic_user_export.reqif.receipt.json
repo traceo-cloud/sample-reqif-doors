@@ -1,0 +1,134 @@
+{
+  "schema": "traceo.import-receipt/v1",
+  "source_sha256": "56179c470d10f94f88d0516926a4522d5e11464339c53d4da572f7d950fe7018",
+  "declared_format": "reqif",
+  "detected_tool": "doors_classic",
+  "tool_id": "IBM Rational DOORS",
+  "verdict": "lossy",
+  "counts": {
+    "objects": {
+      "in": 3,
+      "out": 3
+    },
+    "headings": {
+      "in": 3,
+      "out": 3
+    },
+    "attributes": {
+      "in": 25,
+      "out": 18
+    },
+    "enumeration_values": {
+      "in": 0,
+      "out": 0
+    },
+    "link_types": {
+      "in": 0,
+      "out": 0
+    },
+    "links": {
+      "in": 0,
+      "out": 0
+    },
+    "hierarchy_nodes": {
+      "in": 3,
+      "out": 3
+    },
+    "history_entries": {
+      "in": 0,
+      "out": 0
+    },
+    "baselines": {
+      "in": 0,
+      "out": 0
+    },
+    "attachments": {
+      "in": 0,
+      "out": 0
+    }
+  },
+  "links_by_type": {},
+  "attributes_by_datatype": {
+    "DATE": {
+      "in": 6,
+      "out": 6
+    },
+    "INTEGER": {
+      "in": 3,
+      "out": 3
+    },
+    "XHTML": {
+      "in": 9,
+      "out": 9
+    }
+  },
+  "drops": [
+    {
+      "cls": "attributes",
+      "source_ref": "_9d6c520a-4212-4719-8850-0579647cc74b",
+      "reason": "unmapped_attribute",
+      "detail": "attribute on a SPECIFICATION"
+    },
+    {
+      "cls": "attributes",
+      "source_ref": "_9d6c520a-4212-4719-8850-0579647cc74b",
+      "reason": "unmapped_attribute",
+      "detail": "attribute on a SPECIFICATION"
+    },
+    {
+      "cls": "attributes",
+      "source_ref": "_9d6c520a-4212-4719-8850-0579647cc74b",
+      "reason": "unmapped_attribute",
+      "detail": "attribute on a SPECIFICATION"
+    },
+    {
+      "cls": "attributes",
+      "source_ref": "_9d6c520a-4212-4719-8850-0579647cc74b",
+      "reason": "unmapped_attribute",
+      "detail": "attribute on a SPECIFICATION"
+    },
+    {
+      "cls": "attributes",
+      "source_ref": "_9d6c520a-4212-4719-8850-0579647cc74b",
+      "reason": "unmapped_attribute",
+      "detail": "attribute on a SPECIFICATION"
+    },
+    {
+      "cls": "attributes",
+      "source_ref": "_9d6c520a-4212-4719-8850-0579647cc74b",
+      "reason": "unmapped_attribute",
+      "detail": "attribute on a SPECIFICATION"
+    },
+    {
+      "cls": "attributes",
+      "source_ref": "_9d6c520a-4212-4719-8850-0579647cc74b",
+      "reason": "unmapped_attribute",
+      "detail": "attribute on a SPECIFICATION"
+    }
+  ],
+  "transforms": [
+    {
+      "cls": "objects",
+      "source_ref": "_1_01ea51ea-ed54-471e-8c08-19e093f930f7",
+      "reason": "defaulted_field",
+      "detail": "defaulted: type, classification, status, priority"
+    },
+    {
+      "cls": "objects",
+      "source_ref": "_2_7e1c200d-5c01-4b93-941d-95fadf8feb0c",
+      "reason": "defaulted_field",
+      "detail": "defaulted: type, classification, status, priority"
+    },
+    {
+      "cls": "objects",
+      "source_ref": "_3_a4285dbc-8259-4577-a093-ffd735084332",
+      "reason": "defaulted_field",
+      "detail": "defaulted: type, classification, status, priority"
+    }
+  ],
+  "id_map": {
+    "_1_01ea51ea-ed54-471e-8c08-19e093f930f7": "1",
+    "_2_7e1c200d-5c01-4b93-941d-95fadf8feb0c": "2",
+    "_3_a4285dbc-8259-4577-a093-ffd735084332": "3"
+  }
+}

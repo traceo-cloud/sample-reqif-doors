@@ -1,0 +1,500 @@
+{
+  "schema": "traceo.import-receipt/v1",
+  "source_sha256": "d22edcbffe71f554f2b380ec2f97ca1d1165dd9c0892f11073bb3ec8f84bc577",
+  "declared_format": "reqif",
+  "detected_tool": "doors_classic",
+  "tool_id": "IBM Rational DOORS",
+  "verdict": "clean",
+  "counts": {
+    "objects": {
+      "in": 35,
+      "out": 35
+    },
+    "headings": {
+      "in": 5,
+      "out": 5
+    },
+    "attributes": {
+      "in": 189,
+      "out": 189
+    },
+    "enumeration_values": {
+      "in": 24,
+      "out": 24
+    },
+    "link_types": {
+      "in": 1,
+      "out": 1
+    },
+    "links": {
+      "in": 24,
+      "out": 24
+    },
+    "hierarchy_nodes": {
+      "in": 35,
+      "out": 35
+    },
+    "history_entries": {
+      "in": 0,
+      "out": 0
+    },
+    "baselines": {
+      "in": 0,
+      "out": 0
+    },
+    "attachments": {
+      "in": 0,
+      "out": 0
+    }
+  },
+  "links_by_type": {
+    "derived from": {
+      "in": 24,
+      "out": 24
+    }
+  },
+  "attributes_by_datatype": {
+    "ENUMERATION": {
+      "in": 24,
+      "out": 24
+    },
+    "STRING": {
+      "in": 130,
+      "out": 130
+    },
+    "XHTML": {
+      "in": 35,
+      "out": 35
+    }
+  },
+  "drops": [],
+  "transforms": [
+    {
+      "cls": "attributes",
+      "source_ref": "o-tw-stk-001",
+      "reason": "rich_text_flattened",
+      "detail": "description derived from ReqIF.Text; the XHTML is kept in metadata.attributes"
+    },
+    {
+      "cls": "objects",
+      "source_ref": "o-tw-stk-001",
+      "reason": "defaulted_field",
+      "detail": "defaulted: type, classification, status, priority"
+    },
+    {
+      "cls": "attributes",
+      "source_ref": "o-tw-stk-002",
+      "reason": "rich_text_flattened",
+      "detail": "description derived from ReqIF.Text; the XHTML is kept in metadata.attributes"
+    },
+    {
+      "cls": "objects",
+      "source_ref": "o-tw-stk-002",
+      "reason": "defaulted_field",
+      "detail": "defaulted: type, classification, status, priority"
+    },
+    {
+      "cls": "attributes",
+      "source_ref": "o-tw-stk-003",
+      "reason": "rich_text_flattened",
+      "detail": "description derived from ReqIF.Text; the XHTML is kept in metadata.attributes"
+    },
+    {
+      "cls": "objects",
+      "source_ref": "o-tw-stk-003",
+      "reason": "defaulted_field",
+      "detail": "defaulted: type, classification, status, priority"
+    },
+    {
+      "cls": "attributes",
+      "source_ref": "o-tw-stk-004",
+      "reason": "rich_text_flattened",
+      "detail": "description derived from ReqIF.Text; the XHTML is kept in metadata.attributes"
+    },
+    {
+      "cls": "objects",
+      "source_ref": "o-tw-stk-004",
+      "reason": "defaulted_field",
+      "detail": "defaulted: type, classification, status, priority"
+    },
+    {
+      "cls": "attributes",
+      "source_ref": "o-tw-stk-005",
+      "reason": "rich_text_flattened",
+      "detail": "description derived from ReqIF.Text; the XHTML is kept in metadata.attributes"
+    },
+    {
+      "cls": "objects",
+      "source_ref": "o-tw-stk-005",
+      "reason": "defaulted_field",
+      "detail": "defaulted: type, classification, status, priority"
+    },
+    {
+      "cls": "attributes",
+      "source_ref": "o-tw-stk-006",
+      "reason": "rich_text_flattened",
+      "detail": "description derived from ReqIF.Text; the XHTML is kept in metadata.attributes"
+    },
+    {
+      "cls": "objects",
+      "source_ref": "o-tw-stk-006",
+      "reason": "defaulted_field",
+      "detail": "defaulted: type, classification, status, priority"
+    },
+    {
+      "cls": "attributes",
+      "source_ref": "o-tw-sys-001",
+      "reason": "rich_text_flattened",
+      "detail": "description derived from ReqIF.Text; the XHTML is kept in metadata.attributes"
+    },
+    {
+      "cls": "objects",
+      "source_ref": "o-tw-sys-001",
+      "reason": "defaulted_field",
+      "detail": "defaulted: type, classification, status, priority"
+    },
+    {
+      "cls": "attributes",
+      "source_ref": "o-tw-sys-002",
+      "reason": "rich_text_flattened",
+      "detail": "description derived from ReqIF.Text; the XHTML is kept in metadata.attributes"
+    },
+    {
+      "cls": "objects",
+      "source_ref": "o-tw-sys-002",
+      "reason": "defaulted_field",
+      "detail": "defaulted: type, classification, status, priority"
+    },
+    {
+      "cls": "attributes",
+      "source_ref": "o-tw-sys-003",
+      "reason": "rich_text_flattened",
+      "detail": "description derived from ReqIF.Text; the XHTML is kept in metadata.attributes"
+    },
+    {
+      "cls": "objects",
+      "source_ref": "o-tw-sys-003",
+      "reason": "defaulted_field",
+      "detail": "defaulted: type, classification, status, priority"
+    },
+    {
+      "cls": "attributes",
+      "source_ref": "o-tw-sys-004",
+      "reason": "rich_text_flattened",
+      "detail": "description derived from ReqIF.Text; the XHTML is kept in metadata.attributes"
+    },
+    {
+      "cls": "objects",
+      "source_ref": "o-tw-sys-004",
+      "reason": "defaulted_field",
+      "detail": "defaulted: type, classification, status, priority"
+    },
+    {
+      "cls": "attributes",
+      "source_ref": "o-tw-sys-005",
+      "reason": "rich_text_flattened",
+      "detail": "description derived from ReqIF.Text; the XHTML is kept in metadata.attributes"
+    },
+    {
+      "cls": "objects",
+      "source_ref": "o-tw-sys-005",
+      "reason": "defaulted_field",
+      "detail": "defaulted: type, classification, status, priority"
+    },
+    {
+      "cls": "attributes",
+      "source_ref": "o-tw-sys-006",
+      "reason": "rich_text_flattened",
+      "detail": "description derived from ReqIF.Text; the XHTML is kept in metadata.attributes"
+    },
+    {
+      "cls": "objects",
+      "source_ref": "o-tw-sys-006",
+      "reason": "defaulted_field",
+      "detail": "defaulted: type, classification, status, priority"
+    },
+    {
+      "cls": "attributes",
+      "source_ref": "o-tw-sys-007",
+      "reason": "rich_text_flattened",
+      "detail": "description derived from ReqIF.Text; the XHTML is kept in metadata.attributes"
+    },
+    {
+      "cls": "objects",
+      "source_ref": "o-tw-sys-007",
+      "reason": "defaulted_field",
+      "detail": "defaulted: type, classification, status, priority"
+    },
+    {
+      "cls": "objects",
+      "source_ref": "o-h-systemrequirements-1",
+      "reason": "defaulted_field",
+      "detail": "defaulted: type, classification, status, priority"
+    },
+    {
+      "cls": "attributes",
+      "source_ref": "o-tw-sys-008",
+      "reason": "rich_text_flattened",
+      "detail": "description derived from ReqIF.Text; the XHTML is kept in metadata.attributes"
+    },
+    {
+      "cls": "objects",
+      "source_ref": "o-tw-sys-008",
+      "reason": "defaulted_field",
+      "detail": "defaulted: type, classification, status, priority"
+    },
+    {
+      "cls": "attributes",
+      "source_ref": "o-tw-sys-009",
+      "reason": "rich_text_flattened",
+      "detail": "description derived from ReqIF.Text; the XHTML is kept in metadata.attributes"
+    },
+    {
+      "cls": "objects",
+      "source_ref": "o-tw-sys-009",
+      "reason": "defaulted_field",
+      "detail": "defaulted: type, classification, status, priority"
+    },
+    {
+      "cls": "attributes",
+      "source_ref": "o-tw-sys-010",
+      "reason": "rich_text_flattened",
+      "detail": "description derived from ReqIF.Text; the XHTML is kept in metadata.attributes"
+    },
+    {
+      "cls": "objects",
+      "source_ref": "o-tw-sys-010",
+      "reason": "defaulted_field",
+      "detail": "defaulted: type, classification, status, priority"
+    },
+    {
+      "cls": "objects",
+      "source_ref": "o-h-systemrequirements-2",
+      "reason": "defaulted_field",
+      "detail": "defaulted: type, classification, status, priority"
+    },
+    {
+      "cls": "attributes",
+      "source_ref": "o-tw-sys-011",
+      "reason": "rich_text_flattened",
+      "detail": "description derived from ReqIF.Text; the XHTML is kept in metadata.attributes"
+    },
+    {
+      "cls": "objects",
+      "source_ref": "o-tw-sys-011",
+      "reason": "defaulted_field",
+      "detail": "defaulted: type, classification, status, priority"
+    },
+    {
+      "cls": "attributes",
+      "source_ref": "o-tw-sys-012",
+      "reason": "rich_text_flattened",
+      "detail": "description derived from ReqIF.Text; the XHTML is kept in metadata.attributes"
+    },
+    {
+      "cls": "objects",
+      "source_ref": "o-tw-sys-012",
+      "reason": "defaulted_field",
+      "detail": "defaulted: type, classification, status, priority"
+    },
+    {
+      "cls": "attributes",
+      "source_ref": "o-tw-sys-013",
+      "reason": "rich_text_flattened",
+      "detail": "description derived from ReqIF.Text; the XHTML is kept in metadata.attributes"
+    },
+    {
+      "cls": "objects",
+      "source_ref": "o-tw-sys-013",
+      "reason": "defaulted_field",
+      "detail": "defaulted: type, classification, status, priority"
+    },
+    {
+      "cls": "attributes",
+      "source_ref": "o-tw-sys-014",
+      "reason": "rich_text_flattened",
+      "detail": "description derived from ReqIF.Text; the XHTML is kept in metadata.attributes"
+    },
+    {
+      "cls": "objects",
+      "source_ref": "o-tw-sys-014",
+      "reason": "defaulted_field",
+      "detail": "defaulted: type, classification, status, priority"
+    },
+    {
+      "cls": "attributes",
+      "source_ref": "o-tw-sys-015",
+      "reason": "rich_text_flattened",
+      "detail": "description derived from ReqIF.Text; the XHTML is kept in metadata.attributes"
+    },
+    {
+      "cls": "objects",
+      "source_ref": "o-tw-sys-015",
+      "reason": "defaulted_field",
+      "detail": "defaulted: type, classification, status, priority"
+    },
+    {
+      "cls": "attributes",
+      "source_ref": "o-tw-sys-016",
+      "reason": "rich_text_flattened",
+      "detail": "description derived from ReqIF.Text; the XHTML is kept in metadata.attributes"
+    },
+    {
+      "cls": "objects",
+      "source_ref": "o-tw-sys-016",
+      "reason": "defaulted_field",
+      "detail": "defaulted: type, classification, status, priority"
+    },
+    {
+      "cls": "objects",
+      "source_ref": "o-h-systemrequirements-3",
+      "reason": "defaulted_field",
+      "detail": "defaulted: type, classification, status, priority"
+    },
+    {
+      "cls": "attributes",
+      "source_ref": "o-tw-seg-001",
+      "reason": "rich_text_flattened",
+      "detail": "description derived from ReqIF.Text; the XHTML is kept in metadata.attributes"
+    },
+    {
+      "cls": "objects",
+      "source_ref": "o-tw-seg-001",
+      "reason": "defaulted_field",
+      "detail": "defaulted: type, classification, status, priority"
+    },
+    {
+      "cls": "attributes",
+      "source_ref": "o-tw-seg-002",
+      "reason": "rich_text_flattened",
+      "detail": "description derived from ReqIF.Text; the XHTML is kept in metadata.attributes"
+    },
+    {
+      "cls": "objects",
+      "source_ref": "o-tw-seg-002",
+      "reason": "defaulted_field",
+      "detail": "defaulted: type, classification, status, priority"
+    },
+    {
+      "cls": "attributes",
+      "source_ref": "o-tw-seg-003",
+      "reason": "rich_text_flattened",
+      "detail": "description derived from ReqIF.Text; the XHTML is kept in metadata.attributes"
+    },
+    {
+      "cls": "objects",
+      "source_ref": "o-tw-seg-003",
+      "reason": "defaulted_field",
+      "detail": "defaulted: type, classification, status, priority"
+    },
+    {
+      "cls": "attributes",
+      "source_ref": "o-tw-seg-004",
+      "reason": "rich_text_flattened",
+      "detail": "description derived from ReqIF.Text; the XHTML is kept in metadata.attributes"
+    },
+    {
+      "cls": "objects",
+      "source_ref": "o-tw-seg-004",
+      "reason": "defaulted_field",
+      "detail": "defaulted: type, classification, status, priority"
+    },
+    {
+      "cls": "objects",
+      "source_ref": "o-h-segmentrequirements-1",
+      "reason": "defaulted_field",
+      "detail": "defaulted: type, classification, status, priority"
+    },
+    {
+      "cls": "attributes",
+      "source_ref": "o-tw-seg-005",
+      "reason": "rich_text_flattened",
+      "detail": "description derived from ReqIF.Text; the XHTML is kept in metadata.attributes"
+    },
+    {
+      "cls": "objects",
+      "source_ref": "o-tw-seg-005",
+      "reason": "defaulted_field",
+      "detail": "defaulted: type, classification, status, priority"
+    },
+    {
+      "cls": "attributes",
+      "source_ref": "o-tw-seg-006",
+      "reason": "rich_text_flattened",
+      "detail": "description derived from ReqIF.Text; the XHTML is kept in metadata.attributes"
+    },
+    {
+      "cls": "objects",
+      "source_ref": "o-tw-seg-006",
+      "reason": "defaulted_field",
+      "detail": "defaulted: type, classification, status, priority"
+    },
+    {
+      "cls": "attributes",
+      "source_ref": "o-tw-seg-007",
+      "reason": "rich_text_flattened",
+      "detail": "description derived from ReqIF.Text; the XHTML is kept in metadata.attributes"
+    },
+    {
+      "cls": "objects",
+      "source_ref": "o-tw-seg-007",
+      "reason": "defaulted_field",
+      "detail": "defaulted: type, classification, status, priority"
+    },
+    {
+      "cls": "attributes",
+      "source_ref": "o-tw-seg-008",
+      "reason": "rich_text_flattened",
+      "detail": "description derived from ReqIF.Text; the XHTML is kept in metadata.attributes"
+    },
+    {
+      "cls": "objects",
+      "source_ref": "o-tw-seg-008",
+      "reason": "defaulted_field",
+      "detail": "defaulted: type, classification, status, priority"
+    },
+    {
+      "cls": "objects",
+      "source_ref": "o-h-segmentrequirements-2",
+      "reason": "defaulted_field",
+      "detail": "defaulted: type, classification, status, priority"
+    }
+  ],
+  "id_map": {
+    "o-h-segmentrequirements-1": "30",
+    "o-h-segmentrequirements-2": "35",
+    "o-h-systemrequirements-1": "14",
+    "o-h-systemrequirements-2": "18",
+    "o-h-systemrequirements-3": "25",
+    "o-tw-seg-001": "26",
+    "o-tw-seg-002": "27",
+    "o-tw-seg-003": "28",
+    "o-tw-seg-004": "29",
+    "o-tw-seg-005": "31",
+    "o-tw-seg-006": "32",
+    "o-tw-seg-007": "33",
+    "o-tw-seg-008": "34",
+    "o-tw-stk-001": "1",
+    "o-tw-stk-002": "2",
+    "o-tw-stk-003": "3",
+    "o-tw-stk-004": "4",
+    "o-tw-stk-005": "5",
+    "o-tw-stk-006": "6",
+    "o-tw-sys-001": "7",
+    "o-tw-sys-002": "8",
+    "o-tw-sys-003": "9",
+    "o-tw-sys-004": "10",
+    "o-tw-sys-005": "11",
+    "o-tw-sys-006": "12",
+    "o-tw-sys-007": "13",
+    "o-tw-sys-008": "15",
+    "o-tw-sys-009": "16",
+    "o-tw-sys-010": "17",
+    "o-tw-sys-011": "19",
+    "o-tw-sys-012": "20",
+    "o-tw-sys-013": "21",
+    "o-tw-sys-014": "22",
+    "o-tw-sys-015": "23",
+    "o-tw-sys-016": "24"
+  }
+}
